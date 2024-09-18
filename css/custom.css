@@ -1,6 +1,14 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/palette/0466c8-0353a4-001845-001233-33415c-5c677d-7d8597-979dac
+0466c8- light blue
+0353a4-blue
+001845-dark blue
+001233-navy blue
+33415c-grayish blue
+5c677d-dark gray
+7d8597-gray
+979dac-light gray
 
 *****/
 
@@ -9,9 +17,22 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
-
+    font-family: "Nunito", sans-serif; 
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+    font-family: "Oswald", sans-serif;
 }
+
+
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead{
+    background:url(../img/Hero.jpg);
+}
+
+
+/********************/
+/******* COLORS ******/
+/********************/
