@@ -1,14 +1,14 @@
 /***** 
 COLOR CHEAT SHEET 
 https://coolors.co/palette/0466c8-0353a4-001845-001233-33415c-5c677d-7d8597-979dac
-0466c8- light blue
-0353a4-blue
-001845-dark blue
-001233-navy blue
-33415c-grayish blue
-5c677d-dark gray
-7d8597-gray
-979dac-light gray
+#0466c8- light blue
+#0353a4-blue
+#001845-dark blue
+#001233-navy blue
+#33415c-grayish blue
+#5c677d-dark gray
+#7d8597-gray
+#979dac-light gray
 
 *****/
 
@@ -20,7 +20,8 @@ body, p {
     font-family: "Nunito", sans-serif; 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Oswald", sans-serif;
 }
 
@@ -30,9 +31,117 @@ h1, h2, h3, h4, h5, h6 {
 /********************/
 header.masthead{
     background:url(../img/Hero.jpg);
+    width: 100%;
+    background-size:cover;
+    bakcground-repeat:no-repeat;
+}
+.btn-primary{
+    background-color:#979dac;
+    border: 5px solid #001233;
+    color:#001233;
+}
+
+.btn-primary:hover{
+    background-color:#001233;
+    border: 5px solid #001233;
+    color:white;
 }
 
 
 /********************/
 /******* COLORS ******/
 /********************/
+
+hr.divider{
+background-color: #7d8597;
+
+}
+a.navbar-brand{
+color:white !important;
+text-shadow: 2px 2px 2px #001233;
+font-size: 30px;
+}
+
+header.masthead h1{
+    color:black;
+    font-size:60px;
+    text-shadow:
+-1px -1px 0 white,
+1px -1px 0 white,
+-1px 1px 0 white,
+1px 1px 0 white;
+font-weight: 4000;
+    font-size: 60px;
+
+    
+}
+
+header.masthead p{
+    color:white;
+text-shadow:
+-1px -1px 0 black,
+1px -1px 0 black,
+-1px 1px 0 black,
+1px 1px 0 black;
+font-weight: 4000;
+    font-size: 30px;
+
+}
+
+section.bg-primary{
+    background-color:#001233 !important;
+}
+.btn-light{
+    background-color: white;
+    border: 5px solid #5c677d;
+}
+.btn-light:hover{
+    background-color:grey;
+    border: 5px solid gray;
+}
+
+.text-primary{
+    color: #001233 !important;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    
+    background: rgba(0, 18, 51, 0.9); */
+    transition: opacity 0.25s ease;
+    text-align: center;
+}
+/********************/
+/******* NAVBAR ******/
+/********************/
+#mainNav.navbar-shrink {
+    background-color: #7d8597;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+color:white;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: white;
+    text-shadow: 3px 3px 3px #001233;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #001233 !important;
+    text-shadow: 3px 3px 3px #5c677d;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color:#001233;
+    text-shadow: 3px 3px 3px #5c677d;
+}
+/********************/
+/******* SLIDER ******/
+/********************/
+
+
+
+
+
+
+
+
+    
+
+
